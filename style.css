@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    background: #252525;
+}
+
+body .main {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 1440px;
+    height: 1500px;
+    background: #FFFFFF;
+    margin: 0;
+
+
+}
