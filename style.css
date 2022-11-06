@@ -285,3 +285,32 @@ section div.form {
 
     opacity: 0.5;
 }
+
+.send_button {
+    position: absolute;
+    width: 221.22px;
+    height: 57px;
+    left: 0px;
+    bottom: 0px;
+
+    background: #1A1A1A;
+    border-radius: 10px;
+
+}
+
+.send_button_text {
+
+    height: 19px;
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+
+
+    color: #FFFFFF;
+}
