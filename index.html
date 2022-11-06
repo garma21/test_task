@@ -68,9 +68,16 @@
                 </button>
             </div>
         </div>
-        <div id="block_gmaps">
-
+        <div class="block_info">
+            <p class="info_text1">
+                Voodoo <br> 137 Glasgow St., Unit 115 <br> Kitchener, ON N2G 4X8 <br> Ukraine
+            </p>
+            <img src="svg/phone.png" alt="" class="info_img1">
+            <img src="svg/mail.png" alt="" class="info_img2">
+            <p class="info_text2">1-800-480-9597 <br>
+                info@voodoo.com</p>
         </div>
+        <div id="block_gmaps"></div>
     </section>
 
     <script>
@@ -91,12 +98,12 @@
 
             });
 
-            var info = new google.maps.InfoWindow({
-                content: '<div><p>qwerty</p></div>'
-            });
-            marker.addListener("click", function () {
-                info.open(map, marker);
-            });
+            // var info = new google.maps.InfoWindow({
+            //     content: '<div><p>qwerty</p></div>'
+            // });
+            // marker.addListener("click", function () {
+            //     info.open(map, marker);
+            // });
         }
     </script>
     <script

@@ -322,6 +322,66 @@ section div.form {
     height: 936px;
     left: 820px;
     top: 157px;
-    border: 1px solid red;
+    border: none;
+    z-index: 1;
+}
 
+.block_info {
+    position: absolute;
+    width: 244px;
+    height: 161px;
+    left: 934px;
+    top: 387px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px rgba(220, 221, 243, 0.25);
+    border-radius: 8px;
+
+    border: none;
+    z-index: 2;
+}
+
+.info_text1 {
+    margin-top: 20px;
+    margin-left: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+
+    color: #1A1A1A;
+}
+
+.info_text2 {
+    position: absolute;
+    top: 89px;
+    left: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    /* or 183% */
+
+
+    color: #858585;
+}
+
+.info_img1 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 27px;
+    top: 105px;
+}
+
+.info_img2 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 28px;
+    top: 127px;
 }
