@@ -102,7 +102,7 @@ section div.form {
     width: 630px;
     height: 370px;
 
-    border: 1px solid blue;
+    /* border: 0px solid blue; */
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -113,12 +113,19 @@ section div.form {
 
 .input_name {
     grid-area: 1 / 1 / 2 / 2;
-    border: 1px solid red;
+
 
     width: 299px;
     height: 64px;
     box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
     border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    border: none;
 }
 
 .input_position {
@@ -129,6 +136,13 @@ section div.form {
     height: 64px;
     box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
     border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    border: none;
 }
 
 .select_institution {
@@ -139,6 +153,13 @@ section div.form {
     height: 64px;
     box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
     border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    border: none;
 }
 
 .input_email {
@@ -149,6 +170,13 @@ section div.form {
     height: 64px;
     box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
     border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    border: none;
 }
 
 .input_phone {
@@ -159,16 +187,29 @@ section div.form {
     height: 64px;
     box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
     border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    border: none;
 }
 
 .select_med_prof {
     grid-area: 3 / 2 / 4 / 3;
-    border: 1px solid red;
+    border: none;
 
     width: 299px;
     height: 64px;
     box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
     border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .type_of_inquiry {
@@ -179,6 +220,12 @@ section div.form {
     height: 64px;
     box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
     border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .block_textarea {
@@ -194,4 +241,21 @@ section div.form {
     border-radius: 8px;
 
     border: 1px solid red;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+select>option.select_option {
+    width: 299px;
+    height: 64px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
 }
