@@ -23,7 +23,7 @@ body .main {
     top: 0;
     left: 50%;
     transform: translate(-50%, 0%);
-    width: 1440px;
+    width: 1423px;
     height: 1500px;
     background: #FFFFFF;
     margin: 0;
@@ -313,4 +313,15 @@ section div.form {
 
 
     color: #FFFFFF;
+}
+
+/* custom gmaps */
+#block_gmaps {
+    position: absolute;
+    width: 470px;
+    height: 936px;
+    left: 820px;
+    top: 157px;
+    border: 1px solid red;
+
 }
