@@ -27,11 +27,6 @@ body .main {
     height: 1500px;
     background: #FFFFFF;
     margin: 0;
-
-    /* //// */
-
-
-
 }
 
 
@@ -44,9 +39,7 @@ section div.form {
     left: 150px;
     top: 138px;
 
-    border: 1px solid black;
-
-
+    border: none;
 }
 
 .form>.form_header {
@@ -56,7 +49,7 @@ section div.form {
     left: 0px;
     top: 0px;
 
-    border: 1px solid red;
+    border: none;
 }
 
 .form_header>.form_header_title {
@@ -212,9 +205,16 @@ section div.form {
     line-height: 28px;
 }
 
-.type_of_inquiry {
+.block_type_of_inquiry {
+    position: absolute;
+    width: 628px;
+    height: 64px;
     grid-area: 4 / 1 / 5 / 3;
-    border: 1px solid red;
+}
+
+.type_of_inquiry {
+
+    border: none;
 
     width: 628px;
     height: 64px;
@@ -240,7 +240,7 @@ section div.form {
     box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
     border-radius: 8px;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     font-family: 'Inter';
     font-style: normal;
@@ -249,13 +249,39 @@ section div.form {
     line-height: 28px;
 }
 
-select>option.select_option {
-    width: 299px;
-    height: 64px;
+
+::placeholder {
+    padding: 20px;
+
+}
+
+.textarea {
+    resize: none;
+    width: 630px;
+    height: 338px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
+    border-radius: 8px;
+
+    border: none;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    /* identical to box height, or 175% */
+
+
+    color: #414042;
+
+    opacity: 0.5;
+}
+
+.select_option {
+    padding: 20px;
+    color: #414042;
+
+    opacity: 0.5;
 }
