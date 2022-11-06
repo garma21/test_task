@@ -1,9 +1,119 @@
-@media (max-width:1440px) {}
+@media (max-width:1440px) {
 
-@media(max-width:1199px) {}
+    body .main {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 1423px;
+        height: 1500px;
+        background: #FFFFFF;
+        margin: 0;
+    }
+}
+
+/* @media(max-width:1199px) {}
 
 @media(max-width:991px) {}
 
-@media(max-width:767px) {}
+@media(max-width:767px) {} */
 
-@media(max-width:540px) {}
+@media(max-width:540px) {
+    body .main {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 428px;
+        height: 2128px;
+        background: #FFFFFF;
+        margin: 0;
+    }
+
+    section div.form {
+        position: absolute;
+        width: 393px;
+        height: 974px;
+        left: 50%;
+        top: 77px;
+        transform: translate(-50%, 0);
+
+        border: none;
+    }
+
+    .form>.form_header {
+        position: absolute;
+        width: 462px;
+        height: 79px;
+        left: 20px;
+        top: 0px;
+
+        border: none;
+    }
+
+    .form_header>.form_header_description {
+        position: absolute;
+        width: 325px;
+        height: 28px;
+        left: 0px;
+        bottom: 0px;
+        margin: 0;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        /* identical to box height, or 175% */
+
+
+        color: #1A1A1A;
+    }
+
+    .wrapper {
+        position: absolute;
+        top: 131px;
+        left: 0px;
+        width: 100%;
+        height: 670px;
+
+        justify-content: center;
+
+
+        display: grid;
+        grid-template-columns: 351px;
+        grid-template-rows: repeat(7, 64px);
+        grid-column-gap: 10px;
+        grid-row-gap: 37px;
+        border: 1px solid red;
+    }
+
+    .input_name {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .input_position {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .select_institution {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .input_email {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .input_phone {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .select_med_prof {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+    .block_type_of_inquiry {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+
+}
